@@ -10,12 +10,10 @@
 
 **[玖字节](https://space.bilibili.com/1968552375)**
 
-
-
 感谢您的阅读
 
 ## 目录
 
-- [第一章-安装Linux](install-linux.md)
+- [第一章-安装Linux](doc/install-linux.md)
 
-- [第二章-基础命令](base-commands.md)
+- [第二章-基础命令](doc/base-commands.md)
