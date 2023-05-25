@@ -1,0 +1,2 @@
+1.使用FinalShell快捷键"Ctrl+L"
+2.在命令行内输入"clear"

@@ -1,0 +1,1 @@
+rocky linux的"echo"命令就相当于python中的print "hello python"，说白了就是编程语言中的print打印输出。

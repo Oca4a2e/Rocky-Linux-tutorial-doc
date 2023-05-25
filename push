@@ -1,0 +1,3 @@
+git remote add origin https://github.com/Oca4a2e/Rocky-Linux-tutorial-doc.git
+git branch -M main
+git push -u origin main
