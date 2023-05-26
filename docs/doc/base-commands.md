@@ -212,11 +212,36 @@ mkdir来自英文: `M`a`k`e `Dir`ectory
 
 `-p`: 表示自动创建不存在的父目录。适用于创建连续多层级的目录
 
+### 示例
+
+不带可选项:
+
+```shell
+[root@localhost ~]# mkdir test-dir
+[root@localhost ~]# pwd
+/root/test-dir
+```
+
+带可选项:
+
+```shell
+[root@localhost ~]# mkdir -p /test-dir-root/test
+[root@localhost ~]# cd /test-dir-root/test
+[root@localhost test]# pwd
+/test-dir-root/test
+```
+
 ## touch - 创建一个新的文件
 
 语法： `touch [Linux路径]`
 
 参数必填，使用绝对，相对，特殊都可以
+
+```shell
+[root@localhost ~]# touch test-file.txt
+[root@localhost ~]# ls
+test-file.txt
+```
 
 ## cat - 查看文件内容
 
@@ -224,13 +249,38 @@ mkdir来自英文: `M`a`k`e `Dir`ectory
 
 参数必填，使用绝对，相对，特殊都可以
 
+```shell
+//这边使用了vim编辑器，后面会写到
+[root@localhost ~]# vim test-file.txt 	//使用vim写入一些内容
+[root@localhost ~]# cat test-file.txt 	//查看内容
+TXT文件内容
+测试
+测试
+TEST
+try
+```
+
+
+
 ## more - 查看文件内容，可翻页查看
 
-语法： `cat [Linux路径]`
+语法： `more [Linux路径]`
 
 参数必填，使用绝对，相对，特殊都可以
 
-使用空格翻页，使用q退出查看
+使用`空格`翻页，使用`q`退出查看
+
+```shell
+[root@localhost ~]# vim test-file.txt 
+[root@localhost ~]# more test-file.txt 
+TXT文件内容
+测试
+测试
+TEST
+try
+```
+
+> 这个功能与cat类似，如果遇到长文档，这个是个很不错的选择
 
 ## cp - 复制
 
@@ -243,6 +293,73 @@ mkdir来自英文: `M`a`k`e `Dir`ectory
 `参数1`: Linux路径，表示被复制的文件和文件夹
 
 `参数2`: Linux路径，表示要复制去的地方
+
+### 示例
+
+文件树:
+
+```shell
+[root@localhost /]# tree /root
+/root
+├── test-dir
+│   └── test-dir-file.txt
+└── test-file.txt
+
+1 directories, 2 files
+```
+
+复制文件:
+
+```shell
+[root@localhost ~]# cp test-file.txt test-file-copy.txt
+[root@localhost ~]# cat test-file.txt 
+TXT文件内容
+测试
+测试
+TEST
+try
+[root@localhost ~]# cat test-file-copy.txt 
+TXT文件内容
+测试
+测试
+TEST
+try
+```
+
+复制文件夹:
+
+```shell
+[root@localhost ~]# cp -r  test-dir test-dir-copy
+[root@localhost ~]# cat test-dir-copy/test-dir-file.txt 
+这个是test-dir里的文件
+测试
+测试
+123
+456
+[root@localhost ~]# cat test-dir/test-dir-file.txt 
+这个是test-dir里的文件
+测试
+测试
+123
+456
+```
+
+最终的目录树:
+
+```shell
+[root@localhost /]# tree /root
+/root
+├── test-dir
+│   └── test-dir-file.txt
+├── test-dir-copy
+│   └── test-dir-file.txt
+├── test-file-copy.txt
+└── test-file.txt
+
+2 directories, 4 files
+```
+
+
 
 ## mv - 移动文件
 
