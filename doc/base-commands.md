@@ -277,3 +277,15 @@ mkdir来自英文: `M`a`k`e `Dir`ectory
 - `test*`，表示匹配任何以test开头的内容
 - `*test`，表示匹配任何以test结尾的内容*
 - `*test*`，表示匹配任何包含test的内容
+
+>### <font color=red>危险的操作</font>
+>
+> rm是一个危险的命令，特别实在处于root(超级管理员)用户的时候
+>
+> 请谨慎使用！
+>
+> <font color=red>以下命令请不要再root管理员用户下执行: </font>
+>
+> <font color=red>**`rm -rf /`**</font>
+>
+> <font color=red>**`rm -rf /*`**</font>
