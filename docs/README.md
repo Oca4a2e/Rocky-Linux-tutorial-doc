@@ -2,7 +2,7 @@
 
 ## 前言
 
-如果感觉不错，请这个项目一个Star，O(∩_∩)O谢谢 [项目链接](https://github.com/Oca4a2e/Rocky-Linux-tutorial-doc)
+如果感觉不错，请给这个项目一个Star，O(∩_∩)O谢谢 [项目链接](https://github.com/Oca4a2e/Rocky-Linux-tutorial-doc)
 
 此文档Web阅读页面使用VuePress构建
 
