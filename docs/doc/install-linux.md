@@ -12,8 +12,7 @@
 > 
 > 注：尽量使用 Rocky Linux 9.x
 
-<iframe src="https://player.bilibili.com/player.html?aid=613332655&bvid=BV1yh4y1J7rY&cid=1120797846&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="550px"> </iframe>
-
+<iframe src="https://player.bilibili.com/player.html?aid=613332655&bvid=BV1yh4y1J7rY&cid=1120797846&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"> </iframe>
 # 更多资源
 
 ## 镜像链接(ISO文件)

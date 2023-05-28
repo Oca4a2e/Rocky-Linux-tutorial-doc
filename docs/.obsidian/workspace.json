@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "876bf2d431d790a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "48901635565e86e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad9c95e59049eacb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "rocky-linux-src/第二章/【8】grep wc 管道符(关键字过滤)/管道符.png"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "55870351a95b5453",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59a0f62af4b3a908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "doc/base-commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d36d8d9578c23f6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "48db4480fff7d1b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d075b162d487c67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6f5a00b8e0fb9507",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "915778c80494b52c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1ab90fa36ae879d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1526f556011620",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dedc38dd27b05d2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "doc/base-commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfb6cd077716b636",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "doc/base-commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3afd6f87d1c58199",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "434a0f6133818208",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "doc/base-commands.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "59a0f62af4b3a908",
+  "lastOpenFiles": [
+    "rocky-linux-src/第二章/【8】grep wc 管道符(关键字过滤)/管道符.png",
+    "doc/base-commands.md",
+    "rocky-linux-src/第二章/【7】which find(查找命令程序 查找指定文件)/which(找命令目录).png",
+    "rocky-linux-src/第二章/【7】which find(查找命令程序 查找指定文件)/find通配符.png",
+    "rocky-linux-src/第二章/【7】which find(查找命令程序 查找指定文件)/find -size.png",
+    "rocky-linux-src/第二章/【7】which find(查找命令程序 查找指定文件)/find -name.png",
+    "doc/install-linux.md"
+  ]
+}
